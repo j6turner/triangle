@@ -1,7 +1,7 @@
 describe('triangleType', function() {
 
-  it('identifies an equilateral triangle', function() {
-    expect(triangleType("equilateral")).to.eql([1, 1, 1]);
+  it('returns "equilateral" if all lengths are equal', function() {
+    expect(triangleType("[1], [1], [1]")).to.eql("equilateral");
   });
 
 });
