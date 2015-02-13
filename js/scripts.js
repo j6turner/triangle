@@ -1,0 +1,3 @@
+var triangleType = function(triangle) {
+
+};
