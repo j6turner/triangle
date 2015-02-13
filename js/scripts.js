@@ -1,11 +1,11 @@
-var triangleType = function(triangle) {
-
+var triangleType = function(length) {
+  var triangle = "";
   var a = 0,
       b = 0,
       c = 0;
   var result = "";
 
-  if ((a === b) && (b === c)) {
+  if ((length[a] === length[b]) && (length[b] === length[c])) {
     triangle = "equilateral";
   }
 
