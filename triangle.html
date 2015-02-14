@@ -4,27 +4,28 @@
   <head>
     <title>Triangle</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
         <h1>Triangle</h1>
-
+        <hr >
         <form id="triangle">
           <div class="form-group">
 
-            <label for="dim1">Enter the length of side 1:</label>
-            <input id="dim1" type="text" class="form-control">
-
-            <label for="dim2">Enter the length of side 2:</label>
-            <input id="dim2" type="text" class="form-control">
-
-            <label for="dim3">Enter the length of side 3:</label>
-            <input id="dim3" type="text" class="form-control">
+            <label for="a">Enter the length of Side 1:</label>
+            <input id="a" type="text" class="form-control">
+        <br >
+            <label for="b">Enter the length of Side 2:</label>
+            <input id="b" type="text" class="form-control">
+        <br >
+            <label for="c">Enter the length of Side 3:</label>
+            <input id="c" type="text" class="form-control">
 
           </div>
-
+        <br >
           <button type="submit" class="btn btn-success">Proceed</button>
 
         </form>
@@ -32,9 +33,7 @@
         <br>
 
         <div id="result">
-            <ul>
-              <li><p>Triangle type = <span class="triangle_type"></span></p></li>
-            </ul>
+          <p>Triangle type = <span class="triangle"></span></p>
         </div>
 
     </div>
