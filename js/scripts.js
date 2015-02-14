@@ -11,13 +11,13 @@ var triangleType = function(length) {
     triangle = "No luck ... that is not a triangle.";
   } else if ((length[a] === length[b]) && (length[b] === length[c])) {
       triangle = "equilateral";
-    } else if (((length[a] === length[b]) && (length[a] !== length[c]))
+  } else if (((length[a] === length[b]) && (length[a] !== length[c]))
         || ((length[b] === length[c]) && (length[b] !== length[a]))
         || ((length[c] === length[a]) && (length[c] !== length[b]))) {
       triangle = "isosceles";
-    } else {
+  } else {
       triangle = "scalene";
-    };
+  };
 
 
   result = triangle
