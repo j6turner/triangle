@@ -12,6 +12,8 @@ var triangleType = function(a, b, c) {
         || (b === c && a < (b + c))
         || (c === a && b < (a + b))) {
       triangle = "isosceles";
+  } else {
+      triangle = "scalene";
   };
 
 
