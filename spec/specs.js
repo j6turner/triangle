@@ -9,7 +9,7 @@ describe('triangleType', function() {
   });
 
   it('returns "isosceles" if only two lengths are equal', function() {
-    expect(triangleType(1, 1, 2)).to.equal("isosceles");
+    expect(triangleType(5, 5, 2)).to.equal("isosceles");
   });
 
 });
