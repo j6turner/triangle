@@ -8,7 +8,10 @@ var triangleType = function(a, b, c) {
     triangle = "No luck ... that is not a triangle.";
   } else if (a === b && b === c) {
       triangle = "equilateral";
-
+  } else if ((a === b && c < (a + b))
+        || (b === c && a < (b + c))
+        || (c === a && b < (a + b))) {
+      triangle = "isosceles";
   };
 
 
