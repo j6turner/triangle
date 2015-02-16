@@ -12,4 +12,8 @@ describe('triangleType', function() {
     expect(triangleType(5, 5, 2)).to.equal("isosceles");
   });
 
+  it('returns "scalene" if no lengths are equal but no one length is greater than the other two combined', function() {
+    expect(triangleType(2, 3, 4)).to.equal("scalene");
+  });
+
 });
