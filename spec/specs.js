@@ -8,5 +8,8 @@ describe('triangleType', function() {
     expect(triangleType(1, 1, 1)).to.equal("equilateral");
   });
 
+  it('returns "isosceles" if only two lengths are equal', function() {
+    expect(triangleType(1, 1, 2)).to.equal("isosceles");
+  });
 
 });
