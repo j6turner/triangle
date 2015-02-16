@@ -21,3 +21,22 @@ var triangleType = function(a, b, c) {
   return result;
 
 };
+
+
+$(document).ready(function() {
+  $("form#triangle").submit(function(event) {
+    var a = parseInt($("input#a").val());
+    var b = parseInt($("input#b").val());
+    var c = parseInt($("input#c").val());
+    var result = triangleType(a, b, c);
+
+    $(".a").text(a);
+    $(".b").text(b);
+    $(".c").text(c);
+    $(".result").text(result);
+
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});
