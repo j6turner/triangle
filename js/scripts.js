@@ -1,6 +1,8 @@
-var triangleType = function(a, b, c) {
+var triangleType = function() {
   var triangle = "";
   var result = "";
+
+
 
   if (a >= (b + c)
       || b >= (c + a)
@@ -39,7 +41,9 @@ $(document).ready(function() {
       $(".a").text(a);
       $(".b").text(b);
       $(".c").text(c);
-      $(".result").text(result);
+      $(".equilateral").text(result);
+      $(".isosceles").text(result);
+      $(".scalene").text(result);
     }
 
     $("#equilateral").show();
