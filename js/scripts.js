@@ -42,7 +42,10 @@ $(document).ready(function() {
       $(".result").text(result);
     }
 
-    $("#result").show();
+    $("#equilateral").show();
+    $("#isosceles").show();
+    $("#scalene").show();
+
     event.preventDefault();
   });
 });
