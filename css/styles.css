@@ -27,6 +27,16 @@ h2 {
   color: #565858;
 }
 
+h3 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
+h4 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
 .result {
   color: #CC4040;
 }
