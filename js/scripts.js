@@ -4,8 +4,11 @@ var triangleType = function(a, b, c) {
 
   if (a >= (b + c)
       || b >= (c + a)
-      || c >= (a + b)) {
-    triangle = "No luck ... that is not a triangle.";
+      || c >= (a + b)
+      || isNaN(a)
+      || isNaN(b)
+      || isNaN(c)) {
+    triangle = null;
   } else if (a === b && b === c) {
       triangle = "equilateral";
   } else if ((a === b && c < (a + b))
@@ -30,11 +33,14 @@ $(document).ready(function() {
     var c = parseInt($("input#c").val());
     var result = triangleType(a, b, c);
 
-    $(".a").text(a);
-    $(".b").text(b);
-    $(".c").text(c);
-    $(".result").text(result);
-
+    if (result === null) {
+      alert("No luck ... that is not a triangle.")
+    } else {
+      $(".a").text(a);
+      $(".b").text(b);
+      $(".c").text(c);
+      $(".result").text(result);
+    }
 
     $("#result").show();
     event.preventDefault();
