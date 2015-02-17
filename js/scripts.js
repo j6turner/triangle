@@ -18,15 +18,15 @@ var triangle = {
                                 || isNaN(c));
 
     if (notTriangle) {
-      result = null;
+      alert("Not a triangle");
     } else if (a === b && b === c) {
-        this.equilateral = "" + a + ", " + b + ", " + c;
+        this.equilateral = "<li>" + a + ", " + b + ", " + c + "</li>";
     } else if ((a === b && c < (a + b))
           || (b === c && a < (b + c))
           || (c === a && b < (a + b))) {
-        this.isosceles = "" + a + ", " + b + ", " + c;
+        this.isosceles = "<li>" + a + ", " + b + ", " + c + "</li>";
     } else {
-        this.scalene = "" + a + ", " + b + ", " + c;
+        this.scalene = "<li>" + a + ", " + b + ", " + c + "</li>";
     };
 
 
@@ -44,10 +44,14 @@ $(document).ready(function() {
     if (result === null) {
       alert("No luck ... that is not a triangle.")
     } else {
-      $(".equilateral").text(triangle.equilateral);
-      $(".isosceles").text(triangle.isosceles);
-      $(".scalene").text(triangle.scalene);
+      $(".equilateral").append(triangle.equilateral);
+      $(".isosceles").append(triangle.isosceles);
+      $(".scalene").append(triangle.scalene);
     }
+
+    $("#a").val("");
+    $("#b").val("");
+    $("#c").val("");
 
     $("#equilateral").show();
     $("#isosceles").show();
