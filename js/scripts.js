@@ -41,11 +41,11 @@ $(document).ready(function() {
     triangle.c = parseInt($("input#c").val());
     var result = triangle.type();
 
-   if(!isNaN(triangle.a)){
-    $(".equilateral").append(triangle.equilateral);
-    $(".isosceles").append(triangle.isosceles);
-    $(".scalene").append(triangle.scalene);
-  }
+    if ((!isNaN(triangle.a)) && (!isNaN(triangle.b)) && (!isNaN(triangle.c))) {
+      $(".equilateral").append(triangle.equilateral);
+      $(".isosceles").append(triangle.isosceles);
+      $(".scalene").append(triangle.scalene);
+    }
 
 
     $("#a").val("");
