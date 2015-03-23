@@ -17,7 +17,7 @@ in a Web browser or simply [click here](http://htmlpreview.github.com/?https://g
 Known Bugs
 -----
 
-None as of 2015-02-09.
+As of 2015-02-09, reproduces the post of last entry when alert box is closed or when dimensions of a different type of triangle are entered.
 
 
 Author
