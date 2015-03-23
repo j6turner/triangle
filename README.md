@@ -1,9 +1,9 @@
 Triangle
 ============
 
-This JavaScript web app determines whether the inputted dimensions represent a triangle and, if so, which type.
+This JavaScript Web app determines whether the inputted dimensions represent a triangle and, if so, which type.
 
-Features include [JQuery](http://jquery.com/),
+Features include [jQuery](http://jquery.com/),
 [Mocha](http://mochajs.org/), [Chai](http://chaijs.com/),
 and [Bootstrap](http://http://getbootstrap.com/).
 
@@ -11,7 +11,13 @@ and [Bootstrap](http://http://getbootstrap.com/).
 Usage
 -----
 
-Open the `triangle.html` file in a web browser.
+To view the site, either open the `index.html` file
+in a Web browser or simply [click here](http://htmlpreview.github.com/?https://github.com/j6turner/triangle/blob/master/triangle.html).
+
+Known Bugs
+-----
+
+None as of 2015-02-09.
 
 
 Author
