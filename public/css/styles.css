@@ -7,7 +7,6 @@ body {
   opacity: 1.4;
   border: 3px solid #766C66;
   border-radius: 10px;
-  text-align: justify;
   font-family: Times, Helvetica;
   background-color: #BCC0BC;
 }
@@ -48,7 +47,7 @@ h6 {
   color: #FFFFEF;d
   text-align: center;
   border: 2px solid #4FBAA0;
-  border-radius: 25px;
+  border-radius: 50%;
   padding: 17px;
   margin: 10px;
 }
@@ -57,7 +56,14 @@ h6 {
   background-color: #4FBAA0;
   color: #E8FD8D;
   border: 2px solid #E8FD8D;
+  border-radius: 50%;
+  padding: 17px;
+  margin: 10px;
   cursor: grabbing;
+}
+
+.form-control {
+  text-align: center;
 }
 
 .left {

@@ -1,7 +1,7 @@
 Triangle
 ============
 
-This JavaScript web app determines whether the inputted dimensions represent a triangle and, if so, which type.
+This JavaScript Web app determines whether the inputted dimensions represent a triangle and, if so, which type.
 
 Features include [jQuery](http://jquery.com/),
 [Mocha](http://mochajs.org/), [Chai](http://chaijs.com/),
