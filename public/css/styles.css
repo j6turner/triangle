@@ -41,6 +41,21 @@ h6 {
   color: #565858;
 }
 
+.btn {
+  font-family: Cursive, Helvetica;
+  color: #FFFFEF;
+  border: 2px solid #FFFFEF;
+  border-radius: 70px;
+  padding: 7px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #4FBAA0;
+  color: #FFFFEF;
+  cursor: url('../img/cursor.png'), default;
+}
+
 .left {
   float: left;
 }
