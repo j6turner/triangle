@@ -28,7 +28,6 @@ var triangle = {
     } else {
         this.scalene = "<li>" + a + ", " + b + ", " + c + "</li>";
     };
-
   }
 }
 
