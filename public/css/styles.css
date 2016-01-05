@@ -1,0 +1,69 @@
+body {
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  opacity: 1.4;
+  text-align: justify;
+  font-family: Times, Helvetica;
+  background-color: #BCC0BC;
+}
+
+h1 {
+  font-family: Times, Helvetica;
+  color: #FFFFEF;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
+h3 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
+h4 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
+h5 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
+h6 {
+  font-family: Georgia, Times, Helvetica;
+  color: #565858;
+}
+
+.left {
+  float: left;
+}
+
+.result {
+  color: #CC4040;
+}
+
+.right {
+  float: right;
+}
+
+#result {
+  display: none;
+  border: 3px solid #565858;
+  padding: 20px 20px 20px 20px;
+  background-color: #E7EFEF;
+}
+
+#triangle {
+  border: 3px solid #766C66;
+  border-radius: 5px;
+  padding: 10px 15px 15px 20px;
+  margin: 10px;
+  background-color: #FFFFEF;
+}

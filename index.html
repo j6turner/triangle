@@ -3,9 +3,9 @@
 <html>
 
   <head>
-    <title>Triangle</title>
+    <title>&#9651 Triangle</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="public/css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
   </head>
@@ -16,50 +16,56 @@
 
       <h1>Triangle Tracker</h1>
         <hr >
-      <div class="col-md-3">
-        <form id="triangle">
-          <div class="form-group">
-              <label for="a">Enter the length of Side 1:</label>
-              <input id="a" type="text" class="form-control" placeholder="6">
-            <br >
-              <label for="b">Enter the length of Side 2:</label>
-              <input id="b" type="text" class="form-control" placeholder="7">
-            <br >
-              <label for="c">Enter the length of Side 3:</label>
-              <input id="c" type="text" class="form-control" placeholder="8">
-          </div>
-            <br >
-            <button type="submit" class="btn btn-success">&#9651 Proceed</button>
-        </form>
+      <div class="row-fluid">
+        <div class="col-md-3">
+          <form id="triangle">
+            <div class="form-group">
+                <label for="a">Enter the length of Side 1:</label>
+                <input id="a" type="text" class="form-control" placeholder="6">
+              <br >
+                <label for="b">Enter the length of Side 2:</label>
+                <input id="b" type="text" class="form-control" placeholder="7">
+              <br >
+                <label for="c">Enter the length of Side 3:</label>
+                <input id="c" type="text" class="form-control" placeholder="8">
+            </div>
+              <br >
+              <button type="submit" class="btn btn-success">&#9651 Proceed</button>
+          </form>
+        </div>
       </div>
 
       <br>
 
-      <div class="col-md-3">
-        <div id="equilateral">
-        <h3> Equilateral Triangles</h3>
-          <ul>
-            <h4><span class="equilateral"></span></h4>
-          </ul>
-        </div>
-      </div>
+      <div class="row-fluid">
 
-      <div class="col-md-3">
-        <div id="isosceles">
-        <h3> Isosceles Triangles</h3>
-          <ul>
-            <h4><span class="isosceles"></span></h4>
-          </ul>
+        <div class="col-md-3">
+          <div id="equilateral">
+          <h4> Equilateral Triangles</h4>
+            <ul>
+              <h5><span class="equilateral"></span></h5>
+            </ul>
+          </div>
         </div>
-      </div>
 
-      <div class="col-md-3">
-        <div id="scalene">
-        <h3>Scalene Triangles</h3>
-          <ul>
-            <h4><span class="scalene"></span></h4>
-          </ul>
+        <div class="col-md-3">
+          <div id="isosceles">
+          <h4> Isosceles Triangles</h4>
+            <ul>
+              <h5><span class="isosceles"></span></h5>
+            </ul>
+          </div>
         </div>
+
+        <div class="col-md-3">
+          <div id="scalene">
+          <h4>Scalene Triangles</h4>
+            <ul>
+              <h5><span class="scalene"></span></h5>
+            </ul>
+          </div>
+        </div>
+
       </div>
 
     </div>
