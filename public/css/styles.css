@@ -5,6 +5,8 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover;
   opacity: 1.4;
+  border: 3px solid #766C66;
+  border-radius: 10px;
   text-align: justify;
   font-family: Times, Helvetica;
   background-color: #BCC0BC;
@@ -42,18 +44,20 @@ h6 {
 }
 
 .btn {
-  font-family: Cursive, Helvetica;
-  color: #FFFFEF;
-  border: 2px solid #FFFFEF;
-  border-radius: 70px;
-  padding: 7px;
+  font-family: Verdana, Helvetica;
+  color: #FFFFEF;d
+  text-align: center;
+  border: 2px solid #4FBAA0;
+  border-radius: 25px;
+  padding: 17px;
   margin: 10px;
 }
 
 .btn:hover {
   background-color: #4FBAA0;
-  color: #FFFFEF;
-  cursor: url('../img/cursor.png'), default;
+  color: #E8FD8D;
+  border: 2px solid #E8FD8D;
+  cursor: grabbing;
 }
 
 .left {
@@ -68,6 +72,18 @@ h6 {
   float: right;
 }
 
+#a {
+  background-color: #FDDA8D;
+}
+
+#b {
+  background-color: #FDDA8D;
+}
+
+#c {
+  background-color: #FDDA8D;
+}
+
 #result {
   display: none;
   border: 3px solid #565858;
@@ -77,8 +93,10 @@ h6 {
 
 #triangle {
   border: 3px solid #766C66;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px 15px 15px 20px;
   margin: 10px;
   background-color: #FFFFEF;
+  align-items: center;
+  text-align: center;
 }
